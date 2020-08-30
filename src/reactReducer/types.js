@@ -1,0 +1,11 @@
+const types = {
+  NEW_LIST: 'NEW_LIST',
+  ADD_NEW_ITEMS: 'ADD_NEW_ITEMS',
+  SELECTED: 'SELECTED',
+  REMOVE_SELECTED: 'REMOVE_SELECTED',
+  RANDOM_ID: 'RANDOM_ID',
+  SET_SELECTED_DIRECT: 'SET_SELECTED_DIRECT',
+};
+
+Object.freeze(types);
+export default types;
